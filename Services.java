@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Services {
 
-    private static ArrayList<Hotel> crearHoteles() {
+    public static ArrayList<Hotel> crearHoteles() {
         ArrayList hotelesDisponibles = new ArrayList<Hotel>();
 
         hotelesDisponibles.add(new Hotel(1, 34, 200.43F, "Alborada", "direccionHotel", "telefonoHotel", "emailHotel"));
