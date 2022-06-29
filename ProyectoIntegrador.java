@@ -44,6 +44,6 @@ public class ProyectoIntegrador {
         Hotel hotel = hoteles.get(hotelSeleccionado - 1);//validar que el numero sea entero de entre 1 y 10, y que no sea texto (String) porque si no la app cae en EXCEPTION
 
         JOptionPane.showMessageDialog(null, "Hotel reservado: " + hotel.getNombreHotel() + "\nHabitaciones disponibles: " + hotel.getCapacidadMax());
-
+        boolean truFals = true;
     }
 }
